@@ -44,10 +44,10 @@ form.addEventListener('submit', async (event) => {
 
 // Clearing table
 const clearData = () => {
-    for(let i = 0; i < 7; i++){
-        document.getElementById("name" + String(i+1)).innerHTML = ''
-        document.getElementById("nationality" + String(i+1)).innerHTML = ''
-        document.getElementById("sponsor" + String(i+1)).innerHTML = ''
-        document.getElementById("points" + String(i+1)).innerHTML = ''
+    for(let i = 1; i < 8; i++){
+        document.getElementById("name" + String(i)).innerHTML = ''
+        document.getElementById("nationality" + String(i)).innerHTML = ''
+        document.getElementById("sponsor" + String(i)).innerHTML = ''
+        document.getElementById("points" + String(i)).innerHTML = ''
     }  
 }
