@@ -19,8 +19,6 @@ let form = document.querySelector('#infoDataForm');
 // Grabbing user inputs, return data, populating table
 form.addEventListener('submit', async (event) => {
     event.preventDefault()
-    let query_season = document.querySelector('#season');
-    let query_round = document.querySelector('#round');
     let season = event.path[0][0].value;
     let round = event.path[0][1].value;
     let racer = await getData(season, round);

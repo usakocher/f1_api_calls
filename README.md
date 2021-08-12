@@ -15,9 +15,9 @@ Following that, I created the functions to populate and clear the table. I used 
 values to make sure it was rendering correctly.
 
 ## Lessons Learned
-This was a great experiment on how to interact with APIs and how to use the information. One thing I'm proud of is that this website uses three different APIs. First, it uses
-our assigned API to retrieve the racing information. It then uses a second, to take the nationality of the driver and sponser, and convert it into a two letter county code. Finally 
-it uses a third to retrieve the flag image using the two letter code.<br>
+This was a great experiment on how to interact with APIs and how to use the information. One thing I'm proud of is that this website uses two different APIs. First, it uses
+our assigned API to retrieve the racing information. It then uses a second, to take the nationality of the driver and sponsor, and convert it into a two letter county code. Finally 
+it uses a website to retrieve the flag image using the two letter code.<br>
 
 I had a fun time learning how to interact with APIs and how to get that information to interact with my website. I think more practice is needed but I can see the potential in
 this ability.
